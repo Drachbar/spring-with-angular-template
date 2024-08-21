@@ -1,0 +1,9 @@
+spring:
+    application:
+        name: spring-with-angular
+    datasource:
+        url: jdbc:mysql://localhost:3306/spring_with_angular
+        username: root
+        password: password
+    liquibase:
+        change-log: classpath:db/changelog/db.changelog-master.xml
